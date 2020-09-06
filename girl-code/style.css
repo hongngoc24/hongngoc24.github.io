@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    background: #f6f6f6;
+    height: 100px;
+  }
+
+  .header-logo{
+      flex-basis: 50%;
+      line-height: 100px;
+  }
+
+  .header-menu{
+      flex-basis: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+
+  .header-logo h1{
+    font-style:italic;
+    font-size: 35px;
+    margin-left: 45px; 
+  }
+
+  .header-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 20px;
+  }
+
+  .banner{
+    display: flex;
+    max-width: 100%;
+    background:#f3dbd7;
+    margin-bottom: 20px;
+  }
+
+  .banner-img img{
+    max-width: 100%;
+  }
+
+  .banner-img{
+    flex-basis: 70%;
+  }
+
+  .banner-content{
+    flex-basis: 30%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #944945;
+  }
+
+  .banner-content p{
+    font-family:cursive;
+    font-size: 40px;
+    margin-left: 30px;
+    }
+
+  .banner-content .para{
+    font-size: 35px;
+    margin-left: 85px;
+    line-height: 55px;
+    }
+
+   .cake{
+       background-image: url(https://images.unsplash.com/photo-1543228616-63022d23d1e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80);
+       max-height: 500px;
+       height: 500px;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: 20% 63%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .cake-bg {
+        background-color: #000;
+        opacity: .5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    .cake-content{
+        width: 50%;
+    }
+
+    .cake-content h3{
+        font-size: 45px;
+        color: #f7a572;
+    }
+
+    .cake-content p{
+        font-size: 20px;
+        color: #ffdcbe;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cake-content a{
+        display: inline-block;
+        padding: 15px 20px;
+        border: 2px solid white;
+        background:#f3dbd7;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #944945;
+    }
+
+    /* menu */
+
+    .list-cake{
+        margin-top: 20px;
+        background: #e8ded2;
+        width: 1000px;
+        margin: auto;
+    }
+
+    .cake-item{
+        display: flex;
+        height: 400px;
+        overflow: hidden;
+        /* margin-bottom: 20px; */
+    }
+
+    .cake-item-img{
+        flex-basis: 60%;
+    }
+
+    .cake-item-content{
+        /* text-align: center; */
+        padding: 30px;
+        padding-top: 60px;
+        flex-basis: 40%;
+    }
+
+    .price{
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contact{
+        background: #DDD0C8;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .contact-quote{
+        margin-left: 70px;
+    }
+
+    .contact-quote p{
+        font-size: 55px;
+    }
+
+    .contact-quote button{
+        border: none;
+        background: black;
+        color: white;
+        padding: 10px;
+        text-transform: uppercase;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+
+    .contact-banner{
+        height: 800px;
+        background-image: url(https://images.unsplash.com/photo-1574485166979-41c5fe35c26b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+        width: 100%;
+        object-fit: cover;
+        background-size: cover;
+        background-position:50% 60%;
+    }
+
+    .footer{
+        display:flex;
+        background: #000;
+        color: #f6f6f6;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+
+    .footer-left, .footer-center, .footer-right{
+        flex-basis: 33.33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 30px;
+    }
+
+
+    /* about */
+    .cake-store-content{
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        padding: 90px;
+    }
+
+    
